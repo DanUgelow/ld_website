@@ -55,7 +55,7 @@ p {
 }
 
 /* ======================================= 
-	   SECTION 1 STYLING AND PARALLAX
+				SECTION 1
 =========================================*/
 
 .section_1 {        
@@ -141,7 +141,7 @@ p {
 
 
 /* ======================================= 
-	   SECTION 2 STYLING AND PARALLAX
+				SECTION 2	
 =========================================*/
 .section_2 {
 	width: 100%;
@@ -198,7 +198,8 @@ p {
 
 .section_3 p {
 	font-size: 15px;
-	margin-top: 60px;
+	margin-top: 20px;
+	width: 700px;
 }
 
 .inner_3 {
@@ -226,6 +227,7 @@ p {
 	display: block;
 	text-align: right;
 }
+
 
 .left {
 	float: left;
@@ -296,18 +298,4 @@ form input {
 	background-color: #EBF5FF;
 	text: black;
 }
-
-/*contact form*/
-
-form input {
-	display: block;
-	margin-bottom: 15px;
-}
-
-/*Product Section*/
-
-p img {
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
 
