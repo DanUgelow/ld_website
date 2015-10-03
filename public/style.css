@@ -21,6 +21,11 @@ p {
 	font-size: 30px;
 }
 
+#wrapper {
+	width: 1500px;
+	margin: 0 auto;
+}
+
 /* ======================================= 
 		HEADER STYLING AND POSITIONING
 =========================================*/
@@ -65,13 +70,13 @@ p {
 
 .inner {
 	background-image: url('imgs/suitcase.png');
-	background-size: 115%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 840px;
 	height: 800px;
 	z-index: 1;
 	position: absolute;
-	margin: -140px 0px 0px 600px;
+	margin: -90px 0px 0px 600px;
 	overflow: hidden;
 }
 
@@ -110,7 +115,7 @@ p {
 }
 
 .hr {
-	height: 500px;
+	height: 700px;
 	width: 1px;
 	background-color: #000;
 	margin: 0 auto;
@@ -188,7 +193,7 @@ p {
 =========================================*/
 
 .section_3 {
-	width: 900px;
+	width: 1000px;
 	display: block;
 	position: relative;
 	margin: 0 auto;
@@ -198,12 +203,11 @@ p {
 
 .section_3 p {
 	font-size: 15px;
-	margin-top: 20px;
-	width: 700px;
+	margin-top: 50px;
 }
 
 .inner_3 {
-	width: 960px;
+	width: 700px;
 }
 
 .inner_3 img {
@@ -233,35 +237,29 @@ p {
 	float: left;
 }
 
+.hr1 {
+	width: 1px;
+	height: 200px;
+	background-color: black;
+	margin-left: 230px;
+	position: absolute;
+}
+
+.hr2 {
+	width: 1px;
+	height: 200px;
+	background-color: black;
+	float: right;
+	margin-left: 410px;
+	position: absolute;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ======================================= 
+				   FOOTER
+=========================================*/
 
 /*FOOTER*/
 #footer {
@@ -269,12 +267,6 @@ p {
 }
 
 /*Nav*/
-
-nav {
-	background-color: white; 
-	text-align: center;
-	margin-right: 75px; 
-}
 
 /*contact form*/
 
@@ -298,4 +290,11 @@ form input {
 	background-color: #EBF5FF;
 	text: black;
 }
+
+/*Product Section*/
+
+p img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
 
