@@ -21,6 +21,11 @@ p {
 	font-size: 30px;
 }
 
+#wrapper {
+	width: 1500px;
+	margin: 0 auto;
+}
+
 /* ======================================= 
 		HEADER STYLING AND POSITIONING
 =========================================*/
@@ -65,7 +70,7 @@ p {
 
 .inner {
 	background-image: url('imgs/suitcase.png');
-	background-size: 115%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 840px;
 	height: 800px;
@@ -233,34 +238,6 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*FOOTER*/
 #footer {
 	clear: both;
@@ -268,12 +245,6 @@ p {
 
 /*Nav*/
 
-nav {
-	background-color: white; 
-	text-align: center;
-	margin-right: 75px; 
-}
-
 /*contact form*/
 
 form input {
@@ -281,28 +252,6 @@ form input {
 	margin-bottom: 15px;
 }
 
-/*Product Section*/
-
-#menu li{
-	display: inline;
-	font-size: 24px; 
-	margin-left: 50px;
-	padding: 5px;
-	border-radius: 10px;
-
-}
-
-#menu li:hover {
-	background-color: #EBF5FF;
-	text: black;
-}
-
-/*contact form*/
-
-form input {
-	display: block;
-	margin-bottom: 15px;
-}
 
 /*Product Section*/
 
