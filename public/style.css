@@ -1,0 +1,313 @@
+/* ======================================= 
+				GENERAL STYLING
+=========================================*/
+
+body { 
+	margin:0;
+	top: 0; bottom: 0; left: 0; right: 0;
+} 
+
+
+h1 {
+	font-family: 'Old Standard TT', 'Georgia', serif; 
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+p {
+	font-family: 'Old Standard TT', 'Georgia', serif;
+	font-size: 30px;
+}
+
+/* ======================================= 
+		HEADER STYLING AND POSITIONING
+=========================================*/
+
+#header {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	position: relative;
+	background-color: rgba(0,0,0,0);
+	z-index: -1;
+}
+
+#header h1{
+	position: absolute;
+	width: 100%;
+	top: 250px;
+	color: rgba(0,0,0,0.5);
+}
+
+#header img{
+	position: relative;
+	width: 100%;
+}
+
+#logo {
+	position: fixed;
+	float: left;
+	z-index: 999;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+/* ======================================= 
+	   SECTION 1 STYLING AND PARALLAX
+=========================================*/
+
+.section_1 {        
+	width: 100%;
+	margin: 0 auto; 
+}
+
+.inner {
+	background-image: url('imgs/suitcase.png');
+	background-size: 115%;
+	background-repeat: no-repeat;
+	width: 840px;
+	height: 800px;
+	z-index: 1;
+	position: absolute;
+	margin: -140px 0px 0px 600px;
+	overflow: hidden;
+}
+
+.inner_left {
+	background-image: url('imgs/flower.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 700px;
+	z-index: 1;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 100px;
+}
+
+.title{
+	padding:20px;
+	background-color: rgba(255,255,255,0);
+}
+
+
+.left_section{
+	width: 400px;
+	float: left;
+	clear: both;
+	margin-bottom: 30px;
+	margin-left: 200px;
+}
+
+.right_section{
+	width: 400px;
+	margin-right: 200px;
+	float: right;
+	clear: both;
+	text-align: right;
+}
+
+.hr {
+	height: 500px;
+	width: 1px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+/* ======================================= 
+			   BUTTON STYLING 
+=========================================*/
+
+.center_button {
+	display: block;
+	margin: -18px auto;
+	margin-bottom: 0px;
+	clear: both;
+	width: 150px;
+}
+
+.button {
+	width: 150px;
+	border: 3px double #000;
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 20px;
+	font-family: 'Old Standard TT', 'Georgia', serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+/* ======================================= 
+	   SECTION 2 STYLING AND PARALLAX
+=========================================*/
+.section_2 {
+	width: 100%;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 60px;
+	background-image: url('imgs/bed_blur.jpg');
+	background-size: cover;
+}
+
+#white_block {
+	background-color: rgba(255,255,255,0.6);
+	position: absolute;
+	height: 360px;
+	width: 97%;
+	margin: 20px;
+
+}
+
+.can_do {
+	text-align: center;
+	padding-top: 100px;
+	display: block;
+	width: 600px;
+	margin: 0px auto;
+}
+
+.can_do p {
+	font-size: 20px;
+}
+
+.can_do h1 {
+	font-size: 30px;
+	line-height: 20px;
+}
+
+.can_do hr {
+	width: 200px;
+	border: 1px solid #000;
+}
+
+/* ======================================= 
+	   SECTION 3 STYLING AND PARALLAX
+=========================================*/
+
+.section_3 {
+	width: 900px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+
+.section_3 p {
+	font-size: 15px;
+	margin-top: 60px;
+}
+
+.inner_3 {
+	width: 960px;
+}
+
+.inner_3 img {
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: left;
+	margin-right: 60px;
+
+}
+
+#img_right {
+	float: right;
+	margin-left: 60px;
+}
+
+.right {
+	float: right;
+	clear: left;
+	display: block;
+	text-align: right;
+}
+
+.left {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+#footer {
+	clear: both;
+}
+
+/*Nav*/
+
+nav {
+	background-color: white; 
+	text-align: center;
+	margin-right: 75px; 
+}
+
+/*contact form*/
+
+form input {
+	display: block;
+	margin-bottom: 15px;
+}
+
+/*Product Section*/
+
+#menu li{
+	display: inline;
+	font-size: 24px; 
+	margin-left: 50px;
+	padding: 5px;
+	border-radius: 10px;
+
+}
+
+#menu li:hover {
+	background-color: #EBF5FF;
+	text: black;
+}
+
+/*contact form*/
+
+form input {
+	display: block;
+	margin-bottom: 15px;
+}
+
+/*Product Section*/
+
+p img {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+

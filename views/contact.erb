@@ -1,0 +1,23 @@
+
+
+
+<!-- <form method="POST" action="contact-us-post">
+	<label for="name_input">Name</label><br>
+	<input type="text" name="name_input"><br>
+	<label for="email_input">Email</label><br>
+	<input type="text" name="email_input">
+</form>
+ -->
+
+
+<form method="POST" action="/contact-us-post">
+	<label for="name_input">Name</label>
+	<input type="text" name="name_input">
+	<label for="email_input">Email</label>
+	<input type="text" name="email_input">
+<!-- message_body is the key and the text input is the value -->
+  <textarea name="message_body"></textarea>
+  <input type="submit">
+</form>
+
+<!-- need to add from email and from name variable to send_email function in main.rb -->
