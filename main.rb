@@ -12,8 +12,8 @@ get '/home' do
 	erb :home
 end
 
-get '/techniques' do
-	erb :techniques
+get '/discover' do
+	erb :discover
 end
 
 get '/contact' do
