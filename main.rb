@@ -12,12 +12,12 @@ get '/home' do
 	erb :home
 end
 
-get '/techniques' do
-	erb :techniques
+get '/discover' do
+	erb :discover
 end
 
-get '/contact' do
-	erb :contact
+get '/location' do
+	erb :location
 end
 
 #contact function for contact form
