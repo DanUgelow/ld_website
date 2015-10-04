@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 // PARALLAX SCRIPT
 
 // The plugin code
@@ -24,8 +26,12 @@
         });
     };
 })(jQuery);
-
 // call the plugin
 // $('.section_1').parallax({ "coeff":-0.65 });
 $('.section_1 .inner').parallax({ "coeff":-0.09 });
 $('.section_1 .inner_left').parallax({ "coeff":0.08 });
+
+
+// puhs navigation menu
+
+})
