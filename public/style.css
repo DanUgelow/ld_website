@@ -55,7 +55,6 @@ p {
 	position: fixed;
 	float: left;
 	z-index: 9999;
-
 	margin-left: 10px;
 }
 
@@ -286,9 +285,6 @@ p {
 
 #fixed-nav ul li {
 	list-style-type: none;
-	/*margin: 25px 0px;*/
-   /* padding: 0;
-    width: 100%;*/
     display: inline-block;
     margin-left: 20px;
 }
@@ -305,21 +301,19 @@ form input {
 	margin-bottom: 15px;
 }
 
-/*Product Section*/
-
-#menu li{
-	display: inline;
-	font-size: 24px; 
-	margin-left: 50px;
-	padding: 5px;
+form {
+	width: 30%;
+	margin-top: 200px;
+	margin-left: 200px;
+	background-color: black;
+	padding: 15px;
+	float: left;
+	opacity: 0.8;
 	border-radius: 10px;
+	color: white;
 
 }
 
-#menu li:hover {
-	background-color: #EBF5FF;
-	text: black;
-}
 
 /*Product Section*/
 
