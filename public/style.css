@@ -55,7 +55,9 @@ p {
 	position: fixed;
 	float: left;
 	z-index: 9999;
+	opacity: 0.6;
 	margin-left: 10px;
+
 }
 
 /* ======================================= 
