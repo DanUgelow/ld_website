@@ -12,8 +12,6 @@
 				<hr>
 		</div>
 
-
-
 		<form method="POST" action="/contact-us-post">
 			<label for="name_input">Name</label>
 			<input type="text" name="name_input">
@@ -26,4 +24,34 @@
 
 	</div>
 </div>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+
+<script>
+
+// GOOGLE MAPS API 
+//EMBEDDED HERE BECAUSE IT WAS CAUSING CONFLICTS WHEN PLACED
+//ALONG WITH THE PARALLAX IN THE MAIN.JS
+
+function initialize() {
+
+      var myLatLng = {lat: 40.7079436, lng: -74.0063315};
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 18,
+        center: myLatLng
+      });
+
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Hello World!'
+      });
+}
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+
 

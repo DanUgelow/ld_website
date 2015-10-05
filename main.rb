@@ -20,6 +20,7 @@ get '/location' do
 	erb :location
 end
 
+
 #contact function for contact form
 def send_email(message_body, name_input, email_input)
  m = Mandrill::API.new 
