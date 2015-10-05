@@ -152,13 +152,8 @@ p {
 	color: black
 }
 
-.button:hover {
-	color: white;
-	background-color: black;
-}
-
 .center_button a:hover {
-	color: white;
+	color: salmon;
 }
 
 
@@ -318,25 +313,6 @@ a {
 	color: white;
 }
 
-/*contact form*/
-
-form input {
-	display: block;
-	margin-bottom: 15px;
-}
-
-form {
-	width: 30%;
-	margin-top: 200px;
-	margin-left: 200px;
-	background-color: black;
-	padding: 15px;
-	float: left;
-	opacity: 0.8;
-	border-radius: 10px;
-	color: white;
-
-}
 
 #menu li:hover {
 	background-color: #EBF5FF;
@@ -344,17 +320,10 @@ form {
 }
 
 
-/*Product Section*/
-
-p img {
-	width: 150px;
-	height: 150px;
-	border-radius: 100px;
-}
-
 /* ======================================= 
 		    MAP & LOCATION PAGE
 =========================================*/
+
 
 #map {
 	height: 100%;
@@ -365,7 +334,7 @@ p img {
 #email-form {
 	float: right;
 	height: 500px;
-	width: 400px;
+	width: 300px;
 	margin-top: 130px;
 	margin-right: 150px;
 }
@@ -401,7 +370,7 @@ form input {
 }
 
 form textarea{
-	width: 400px;
+	width: 300px;
 	height: 200px;
 }
 
